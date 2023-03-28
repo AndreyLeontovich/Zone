@@ -1,0 +1,117 @@
+*, h1, h2, h3, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $ff;
+    font-size: 20px;
+    line-height: 20px;
+    background: var(--main-bcg-color);
+    color: var(--main-text-color);
+}
+
+.container {
+    padding: 0 20px;
+    max-width: $container;
+    margin-inline: auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--main-btn-color);
+}
+
+button {
+    display: inline-block;
+}
+
+
+
+// Logo_Block
+
+.logo_block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+        .logo_svg_text{
+            font-family: $font-logo;
+            font-weight: 500;
+            font-size: 1em;
+
+        }
+        
+
+
+// Button
+
+.btn{
+    padding: 12px 30px;
+    background: var(--btn-gradient);
+    border-radius: 6px;
+}
+          
+
+
+
+
+// Text
+
+
+.title_head_block{
+    max-width: 587px;
+    margin: 0 auto;
+}
+
+.head_title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2.1em;
+    line-height: 54px;    
+    
+    color: var(--main-text-color);
+}
+
+.text{
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 26px;
+    
+    color: var(--main-text-color);
+}
+       
+
+
+@media (max-width: 992px) {
+    .title{
+        font-size: 1.6em;
+        line-height: 40px;
+    }
+
+    .text{
+        font-size: 0.6em;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 716px) {
+    .title{
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    .text{
+        font-size: 0.5em;
+        line-height: 16px;
+    }
+}
+
+

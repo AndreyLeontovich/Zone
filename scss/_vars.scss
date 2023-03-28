@@ -1,0 +1,50 @@
+$ff: 'DM Sans', sans-serif;
+$font-logo: 'Rubik';
+
+:root{
+    --main-bcg-color: #111827;
+    --second-bcg-color: #212b4148;
+
+    --main-text-color: #fff;
+    --second-text-color: #F9FAFB;
+
+    --main-btn-color:#fff;
+    --link-color:#fff;
+
+    --text-gradient-blue:linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+
+    --btn-gradient:linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 6px;;
+
+
+
+
+
+    // icon-color
+
+        --icon-one:linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+        --icon-two:linear-gradient(180deg, #D97F95 0%, #923250 100%);
+        --icon-three:linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
+        --icon-four:linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
+        --icon-five:linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+        --icon-six:linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+}
+
+
+$transition: .2s all ease-in-out;
+
+
+
+
+
+// for media qwery
+
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+
+
+
+$container: 1210px;

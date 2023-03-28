@@ -1,0 +1,29 @@
+
+body {
+    background: var(--main-bcg-color);
+    color: var(--main-text-color);
+}
+
+
+
+a {
+    color: var(--main-btn-color);
+}
+.title{
+    color: var(--main-text-color);
+}
+
+.text{
+    color: var(--main-text-color);
+}
+    
+
+
+
+.theme_svg[data-theme="light"] {
+    display: block;
+}
+
+.theme_svg[data-theme="dark"] {
+    display: none;
+}

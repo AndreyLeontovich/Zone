@@ -1,0 +1,67 @@
+
+.header_block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+}
+
+
+.header_nav, .header_nav_block{
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+
+.header_nav{
+	font-weight: 500;
+	font-size: 0.7em;
+}
+
+		
+
+
+
+
+
+
+
+
+.theme{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(93, 0, 253);
+}
+
+    .theme_svg{
+        cursor: pointer;
+
+    }
+
+    .light{
+        fill: rgb(255, 255, 255);
+    }
+
+    .dark{
+        display: none;
+    }
+
+
+						
+
+
+
+
+
+
+
+
+
+@media (max-width: 872px) {
+	.header_nav_block{
+		display: none;
+
+	}
+}
+	

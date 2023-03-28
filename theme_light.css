@@ -1,0 +1,27 @@
+
+body {
+    background: rgb(205, 205, 205);
+    color: black;
+}
+
+
+
+a {
+    color: rgb(46, 46, 46);
+}
+.title{
+    color: rgb(46, 46, 46);
+}
+
+.text{
+    color: rgb(46, 46, 46);
+}
+    
+
+.theme_svg[data-theme="light"] {
+    display: none;
+}
+
+.theme_svg[data-theme="dark"] {
+    display: block;
+}
